@@ -20,7 +20,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* 3 في السطر بنظام Grid */
+
 .products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -74,7 +74,7 @@ body {
   background-color: indigo;
 }
 
-/* البحث و Historique */
+
 .search-container {
   position: relative;
   max-width: 500px;
@@ -151,7 +151,7 @@ body {
   color: red;
 }
 
-/* صفحة التفاصيل */
+
 .detail-page {
   display: flex;
   align-items: center;
@@ -181,7 +181,6 @@ body {
   object-fit: contain;
 }
 
-/* التجاوب مع الهواتف */
 @media (max-width: 900px) {
   .products {
     grid-template-columns: repeat(2, 1fr);
